@@ -141,16 +141,16 @@ az containerapp show --name angular-frontend --resource-group myResourceGroup --
 For your reference we are including some screenshots below that show:
 
 1. **Azure Portal - Front-end Deployment**: This image shows the Angular front-end deployment details in the Azure portal.
-    ![Azure Portal - Front-end Deployment](images/azure-portal-frontend.png)
+    ![Azure Portal - Front-end Deployment](images/azure-portal-frontend.jpg)
 
 2. **Edge Browser - Front-end Application**: This image shows the Angular front-end application running in the Edge browser.
-    ![Edge Browser - Front-end Application](images/edge-browser-frontend.png)
+    ![Edge Browser - Front-end Application](images/edge-browser-frontend.jpg)
 
 3. **Azure Portal - Back-end Deployment**: This image shows the Spring Boot back-end deployment details in the Azure portal.
-    ![Azure Portal - Back-end Deployment](images/azure-portal-backend.png)
+    ![Azure Portal - Back-end Deployment](images/azure-portal-backend.jpg)
 
 4. **Swagger API Docs - Back-end**: This image shows the Swagger API documentation for the Spring Boot back-end.
-    ![Swagger API Docs - Back-end](images/swagger-api-backend.png)
+    ![Swagger API Docs - Back-end](images/swagger-api-backend.jpg)
 
 ## Azure DevOps
 
