@@ -138,8 +138,22 @@ To get the URL for the front-end, use the following Azure CLI command:
 az containerapp show --name angular-frontend --resource-group myResourceGroup --query properties.configuration.ingress.fqdn
 ```
 
+For your reference we are including some screenshots below that show:
+
+1. **Azure Portal - Front-end Deployment**: This image shows the Angular front-end deployment details in the Azure portal.
+    ![Azure Portal - Front-end Deployment](images/azure-portal-frontend.png)
+
+2. **Edge Browser - Front-end Application**: This image shows the Angular front-end application running in the Edge browser.
+    ![Edge Browser - Front-end Application](images/edge-browser-frontend.png)
+
+3. **Azure Portal - Back-end Deployment**: This image shows the Spring Boot back-end deployment details in the Azure portal.
+    ![Azure Portal - Back-end Deployment](images/azure-portal-backend.png)
+
+4. **Swagger API Docs - Back-end**: This image shows the Swagger API documentation for the Spring Boot back-end.
+    ![Swagger API Docs - Back-end](images/swagger-api-backend.png)
+
 ## Azure DevOps
 
-See [Azure DevOps Pipeline example](azure-pipelines-aca.yml) for a CI/CD pipelin example.
+See [Azure DevOps Pipeline example](azure-pipelines-aca.yml) for a CI/CD pipeline example.
 
 If you are looking to redeploy the two applications after your initial deployment, we recommend using the [AzureContainerApps@1 task](https://learn.microsoft.com/azure/container-apps/azure-pipelines#deploy-an-existing-container-image-to-container-apps) instead of the `AzureCLI@2 task` in the `Deploy` stage in the pipeline example.
