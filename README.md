@@ -8,6 +8,7 @@ of your choice.
 
 ### Prerequisites
 
+1. WSL2 / Linux / macOS / Cloud Shell / GitHub Codespaces
 1. Java 21
 1. Maven
 
